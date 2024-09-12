@@ -9,7 +9,10 @@ public class Main {
 
         for (Book x: livros)
         {
-            System.out.println(x.getTitle());
+            if (x.getAuthor().equals("J.K. Rowling")) {
+                System.out.println(x.getTitle());
+            }
+
         }
     }
 }
